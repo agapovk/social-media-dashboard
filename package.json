@@ -2,6 +2,7 @@
 	"name": "social-media-dashboard",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://agapovk.github.io/social-media-dashboard",
 	"dependencies": {
 		"@headlessui/react": "^1.7.5",
 		"react": "^18.2.0",
@@ -9,6 +10,8 @@
 		"react-scripts": "5.0.1"
 	},
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build"
 	},
@@ -31,6 +34,7 @@
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.13",
+		"gh-pages": "^4.0.0",
 		"postcss": "^8.4.19",
 		"prettier": "^2.8.1",
 		"prettier-plugin-tailwindcss": "^0.2.1",

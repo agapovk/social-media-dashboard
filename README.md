@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution](https://agapovk.github.com/social-media-dashboard)
+- Solution URL: [My solution](https://agapovk.github.io/social-media-dashboard/)
 
 ## My process
 
