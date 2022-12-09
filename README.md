@@ -12,8 +12,8 @@ Users should be able to:
 
 ### Screenshots
 
-![Light theme](./screenshot-light.webp)
-![Dark theme](./screenshot-dark.webp)
+![Light theme](./public/screenshot-light.webp)
+![Dark theme](./public/screenshot-dark.webp)
 
 ### Links
 
