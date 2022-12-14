@@ -2,7 +2,7 @@ import { data } from '../data/data';
 
 const Overview = ({ darkMode }) => {
 	return (
-		<>
+		<footer>
 			<h1
 				className={`mt-10 mb-6 text-2xl font-bold ${
 					darkMode ? 'text-darkText' : 'text-lightTextSecondary'
@@ -53,7 +53,7 @@ const Overview = ({ darkMode }) => {
 					);
 				})}
 			</div>
-		</>
+		</footer>
 	);
 };
 

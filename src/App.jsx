@@ -13,12 +13,14 @@ function App() {
 	}
 
 	return (
-		<div className={`relative min-h-screen p-6 ${darkMode ? ' bg-darkBG' : ' bg-white'}`}>
+		<section
+			role='main'
+			className={`relative min-h-screen p-6 ${darkMode ? ' bg-darkBG' : ' bg-white'}`}>
 			<TopBackground darkMode={darkMode} />
 			<Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
 			<Overall darkMode={darkMode} />
 			<Overview darkMode={darkMode} />
-		</div>
+		</section>
 	);
 }
 
