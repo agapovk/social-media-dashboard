@@ -2,7 +2,7 @@ import { data } from '../data/data';
 
 const Overall = ({ darkMode }) => {
 	return (
-		<main className='mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4'>
+		<div className='mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4'>
 			{data.overallCards.map((card, index) => {
 				return (
 					<div
@@ -48,7 +48,7 @@ const Overall = ({ darkMode }) => {
 					</div>
 				);
 			})}
-		</main>
+		</div>
 	);
 };
 

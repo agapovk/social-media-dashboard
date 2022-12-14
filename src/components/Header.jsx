@@ -2,7 +2,7 @@ import { Switch } from '@headlessui/react';
 
 const Header = ({ darkMode, toggleDarkMode }) => {
 	return (
-		<header className='flex flex-col justify-between divide-y divide-lightTextSecondary/50 md:flex-row md:divide-none'>
+		<div className='flex flex-col justify-between divide-y divide-lightTextSecondary/50 md:flex-row md:divide-none'>
 			<div className='py-3'>
 				<h1
 					className={`mb-1 text-2xl font-bold ${darkMode ? ' text-darkText' : ' text-lightText'}`}>
@@ -37,7 +37,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
 					/>
 				</Switch>
 			</div>
-		</header>
+		</div>
 	);
 };
 
